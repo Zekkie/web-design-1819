@@ -9,6 +9,9 @@ Mijn denkwijze voor dit ontwerp was, Marijn heeft waarschijnlijk moeite met het 
 ### De taal
 Omdat Marijn het liefst zo minder mogelijk typt heb ik een taal proberen te ontwerpen waarbij hij met zo min mogelijk toetsaanslagen een element van A naar B kan verplaatsen. Daarbij kwam ik als eerste instantie uit op "mov w,q,1". Dit zijn 9 toets aanslagen. Daarna heb ik mov veranderd in alleen m, waarbij de toetsaanslagen van 9 naar 7. En daarmee heb ik mijn tests gedaan.
 
+```
+m w,q,1
+```
 
 # Test Scenario
 Marijn is klaar met een taak en wil vanuit zijn TODO lijst een nieuwe taak verplaatsen naar WORKING ON. Echter, vanwege zijn beperking kan hij moeilijk slepen van A naar B.
@@ -27,13 +30,23 @@ Hij vond het idee leuk alleen hij had een paar aanmerkingen. Hij wilde geen spat
 ### Iteratie 
 Aan de hand van zijn feedback en bevindingen heb ik het ontwerp geweizigd. Door comma's en spaties te verwijderen is de commando mwq1 geworden. En daardoor zijn de toetsaanslagen gehalveerd van het originele 9 toetsen naar 4. Ook heb ik de input en buttons groter gemaakt zodat hij daar makkelijker bij kon met zijn muis.
 
+```
+mwq1
+```
+
 # Test 2
 
 ## Uitkomsten test 2
 Dit keer had Marijn maar een aanmerking. Hij had liever dat hij als eerst zijn target kon selecteren en daarna de destination. Dus in plaats van MWQ1, wilde hij dat het MQW1 zou zijn.
 
+```
+mqw1
+```
+
 ### Iteratie
 Omdat wij pas laat waren begonnen met testen, is er geen tijd meer om een iteratie te doen. Maar Marijn had nog wel een leuke feature voorstel. Hij zou ook graag via een commando content van een card willen wijzigen.
 
-
 # Wishes
+	- Edit feature
+	- Delete feature
+	- Swap feature (e.g. swap item 1 met item 3 in WORKING ON)
