@@ -46,6 +46,10 @@ mqw1
 ### Iteratie
 Omdat wij pas laat waren begonnen met testen, is er geen tijd meer om een iteratie te doen. Maar Marijn had nog wel een leuke feature voorstel. Hij zou ook graag via een commando content van een card willen wijzigen.
 
+# Conclusie
+
+Marijn gaf aan dat als hij de mogelijkheid had om dit ontwerp te gebruiken, dat hij het zou gebruiken. Hij had nog een aantal feature requests. Voor een persoon als Marijn is dit een goed ontwerp omdat hij zelf een programmeur is. Maar of dit geschikt is voor iedereen met zijn beperking, daar heb ik nog geen antwoord op. Omdat dit met meerdere mensen getest zal moeten worden.
+
 # Wishes
 	- Edit feature
 	- Delete feature
